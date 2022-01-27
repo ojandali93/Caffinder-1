@@ -95,3 +95,19 @@ dev and do a pull request. Then you should go back into your branch
 and continue working on your branch. the pulled code should not
 show up in your branch. Once you merge with dev, you should see the
 pulled code and your code. 
+
+-------------
+
+How to setup the virtual environment and run it for the project.
+
+`python3 -m venv venv`
+`source venv/bin/activate`
+`pip install -r requirements.txt`
+
+How to run the backend server when you first download the project
+
+`cd backend`
+`npm install`
+`npm run start`
+
+This should start the backend server and there should be no issues
